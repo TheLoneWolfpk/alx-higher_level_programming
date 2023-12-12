@@ -641,7 +641,7 @@ class TestSquare(unittest.TestCase):
     def test_update_args(self):
         """
         Test for update method: args
-        ""
+        """
 
         S = Square(1, 2, 3, 4)
         S.update(6)

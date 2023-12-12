@@ -574,7 +574,7 @@ class TestRectangle(unittest.TestCase):
     def test_wrong_inputted_values(self):
         """
         Test for negative and zero values
-        ""
+        """
 
         with self.assertRaises(ValueError):
             R = Rectangle(0, 0)
@@ -587,7 +587,7 @@ class TestRectangle(unittest.TestCase):
         with self.assertRaises(TypeError):
             R = Rectangle(1, 2, 3, 4, 5, 6, 7)
 
-    def test_inputted_types(self):
+    def test_wrong_inputted_values(self):
         """
         Different types for inputted arguments
         """
